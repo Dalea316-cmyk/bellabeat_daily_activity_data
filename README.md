@@ -7,7 +7,7 @@ This project focuses on analyzing daily activity data from the Bellabeat smart d
 
 ## Dataset Used
 The primary dataset used for this analysis is:
-*'dailyActivity_merged.csv':
+*'dailyActivity_merged.csv'*:
 contains daily activity records for 33 Bellabeat users over a period of approximately one month.
 **Key columns in this dataset include:**
 * 'Id': Unique participant ID.
