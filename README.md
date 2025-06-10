@@ -5,11 +5,11 @@
 This project focuses on analyzing daily activity data from the Bellabeat smart device users to uncover trends, insights, and opportunities for product improvement and marketing strategies. The analysis specifically leverages the 'dailyActivity_merged.csv' dataset.
 **Bellabeat** is a high-tech company that manufactures health and fitness products for women. Their smart devices track various health metrics, including activity, sleep, stress, and reproductive health.
 
-##Dataset Used
+## Dataset Used
 The primary dataset used for this analysis is:
 *'dailyActivity_merged.csv':
 contains daily activity records for 33 Bellabeat users over a period of approximately one month.
-**Key columns in this dataset include:**
+** Key columns in this dataset include:**
 * 'Id': Unique participant ID.
 * 'ActivityDate': Date of the recorded activity.
 * 'TotalSteps': Total steps taken in a day.
