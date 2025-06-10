@@ -34,13 +34,13 @@ contains daily activity records for 33 Bellabeat users over a period of approxim
   4. Is there a clear relationship between daily steps and calories burned?
   5. What are the characteristics of the most and least active users?
  
-  6. ##Data Cleaning and Preprocessing
-  7. The 'dailyActivity_merged.csv' dataset was loaded into a MySQL database. The following key cleaning and preprocessing steps were performed:
-  8. * **Date Conversion:** The 'ActivityDate' column was converted from 'VARCHAR' to a 'Date' data type for proper time-series analysis.
-     * **Duplicate Check:** Checked for and confirmed the asence of duplicate entries based on 'Id'and 'ActivityDate' to ensure data integrity.
-     * **Data Type Validation:** Verified and adjusted data types for all numericalcolumns to 'INT' or 'DECIMAL' as appropriate.
-     * **Inconsistency Check:** Identified and reviewed records with illogical values (e.g., negative steps, zero steps with highactive minutes) to understand data quality.
-     * (Refer to the 'sql_scripts/' directory for detailed SQL queries used for cleaning)*
+  ##Data Cleaning and Preprocessing
+  The 'dailyActivity_merged.csv' dataset was loaded into a MySQL database. The following key cleaning and preprocessing steps were performed:
+  * **Date Conversion:** The 'ActivityDate' column was converted from 'VARCHAR' to a 'Date' data type for proper time-series analysis.
+  * **Duplicate Check:** Checked for and confirmed the asence of duplicate entries based on 'Id'and 'ActivityDate' to ensure data integrity.
+  * **Data Type Validation:** Verified and adjusted data types for all numericalcolumns to 'INT' or 'DECIMAL' as appropriate.
+  * **Inconsistency Check:** Identified and reviewed records with illogical values (e.g., negative steps, zero steps with highactive minutes) to understand data quality.
+  * (Refer to the 'sql_scripts/' directory for detailed SQL queries used for cleaning)*
     
-     * ##Analysis Highlights & Key Findings
-     * *
+  ##Analysis Highlights & Key Findings
+  
