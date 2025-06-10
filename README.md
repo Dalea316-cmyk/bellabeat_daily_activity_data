@@ -18,3 +18,29 @@ contains daily activity records for 33 Bellabeat users over a period of approxim
   'FairlyActiveMinutes',
   'LightlyActiveMinutes',
   'SedentaryMinutes': Breakdown of time spent in various activityintensities.
+
+  ##Tools and Technologies
+  * **Database:** MySQL (for data cleaning, transformation, and analysis using SQL queries)
+  * **Database Client:** MySQL Workbench (for executing SQL queries and managing the database)
+  * **Business Intelligence Tool:**
+  * Power BI Desktop (for creating interactive dashboards and visualizations)
+  * **Git & GitHub (for project management and collaboration)
+ 
+  ##Key Questions & Goals
+  Tis analysis aimed to answer the following questions:
+  1. What are the overall average daily activity metrics (steps,distance, calories, sedentary time) for the user's?
+  2. How do user avctivity levels vary by of the week?
+  3. How are useers distributed across differt activity levels (e.g., highly active, moderately active, sedentary) based on their average daily steps?
+  4. Is there a clear relationship between daily steps and calories burned?
+  5. What are the characteristics of the most and least active users?
+ 
+  6. ##Data Cleaning and Preprocessing
+  7. The 'dailyActivity_merged.csv' dataset was loaded into a MySQL database. The following key cleaning and preprocessing steps were performed:
+  8. * **Date Conversion:** The 'ActivityDate' column was converted from 'VARCHAR' to a 'Date' data type for proper time-series analysis.
+     * **Duplicate Check:** Checked for and confirmed the asence of duplicate entries based on 'Id'and 'ActivityDate' to ensure data integrity.
+     * **Data Type Validation:** Verified and adjusted data types for all numericalcolumns to 'INT' or 'DECIMAL' as appropriate.
+     * **Inconsistency Check:** Identified and reviewed records with illogical values (e.g., negative steps, zero steps with highactive minutes) to understand data quality.
+     * (Refer to the 'sql_scripts/' directory for detailed SQL queries used for cleaning)*
+    
+     * ##Analysis Highlights & Key Findings
+     * *
