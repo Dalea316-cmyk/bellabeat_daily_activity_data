@@ -43,4 +43,22 @@ contains daily activity records for 33 Bellabeat users over a period of approxim
   * (Refer to the 'sql_scripts/' directory for detailed SQL queries used for cleaning)*
     
   ##Analysis Highlights & Key Findings
+  * **Average Daily Steps:**
+  Users averaged 6.51k per day, indicating a moderately active overall user base.
+
+  * **Sedentary Behavior:**
+  On average , users spent 1.08k minutes sedentary daily, highlighting an area for potential intervention.
+
+* **Weekend vs. Weekday Activity:**
+Activity levels are actively high on Saturday and with the lowest on Friday.
+
+* **User Segmentation:**
+30.56% of users were classified as highly active, 12.96% as moderately active, and 47.22% as sedentary based on WHO guidelines.
+
+  ## Visualizations
+* **Average Daily Steps:**
+
+  
+  
+    
   
