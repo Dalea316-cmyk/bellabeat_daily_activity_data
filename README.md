@@ -62,7 +62,16 @@ Activity levels are actively high on Saturday and with the lowest on Friday.
 This place card shows the average daily steps accumulated by users in a day.
 
 * **Distribution of Users by Activity Level:**
+![Image](https://github.com/user-attachments/assets/40bd32b8-7a40-451c-8cbe-567b3767295d)
+This pie chart shows distribution of users by activity level with different steps categories.
 
+Fora veiw to my report it is available bellow:
+
+## Future Enhancements
+* Integrate other Bellabeat datasets such as 'sleepDay_merged.csv' and 'heartrate_seconds_merged.csv' for a more holistic veiw of user health.
+
+## Acknowledgements
+* **Bellabeat:**
   
   
     
