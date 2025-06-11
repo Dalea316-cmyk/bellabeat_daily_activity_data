@@ -77,7 +77,7 @@ For a veiw to my report it is available bellow:
 
 ## Acknowledgements
 * **Bellabeat:** For providing the dataset.
-* **Google Data Analytics Professional Certificate:**For providing the case study and guiding principles.
+* **Google Data Analytics Professional Certificate:** For providing the case study and guiding principles.
 
 ## License
 This project is open-sourced under the [MIT License](https://opensource.org/license/MIT).
