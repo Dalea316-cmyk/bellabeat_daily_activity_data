@@ -23,8 +23,8 @@ contains daily activity records for 33 Bellabeat users over a period of approxim
   * **Database:** MySQL (for data cleaning, transformation, and analysis using SQL queries)
   * **Database Client:** MySQL Workbench (for executing SQL queries and managing the database)
   * **Business Intelligence Tool:**
-  * Power BI Desktop (for creating interactive dashboards and visualizations)
-  * **Git & GitHub (for project management and collaboration)
+  * **Power BI Desktop:** (for creating interactive dashboards and visualizations)
+  * **Git & GitHub:** (for project management and collaboration)
  
   ## Key Questions & Goals
   Tis analysis aimed to answer the following questions:
