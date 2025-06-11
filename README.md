@@ -19,14 +19,14 @@ contains daily activity records for 33 Bellabeat users over a period of approxim
   'LightlyActiveMinutes',
   'SedentaryMinutes': Breakdown of time spent in various activityintensities.
 
-  ##Tools and Technologies
+  ## Tools and Technologies
   * **Database:** MySQL (for data cleaning, transformation, and analysis using SQL queries)
   * **Database Client:** MySQL Workbench (for executing SQL queries and managing the database)
   * **Business Intelligence Tool:**
   * Power BI Desktop (for creating interactive dashboards and visualizations)
   * **Git & GitHub (for project management and collaboration)
  
-  ##Key Questions & Goals
+  ## Key Questions & Goals
   Tis analysis aimed to answer the following questions:
   1. What are the overall average daily activity metrics (steps,distance, calories, sedentary time) for the user's?
   2. How do user avctivity levels vary by of the week?
@@ -34,7 +34,7 @@ contains daily activity records for 33 Bellabeat users over a period of approxim
   4. Is there a clear relationship between daily steps and calories burned?
   5. What are the characteristics of the most and least active users?
  
-  ##Data Cleaning and Preprocessing
+  ## Data Cleaning and Preprocessing
   The 'dailyActivity_merged.csv' dataset was loaded into a MySQL database. The following key cleaning and preprocessing steps were performed:
   * **Date Conversion:** The 'ActivityDate' column was converted from 'VARCHAR' to a 'Date' data type for proper time-series analysis.
   * **Duplicate Check:** Checked for and confirmed the asence of duplicate entries based on 'Id'and 'ActivityDate' to ensure data integrity.
@@ -42,7 +42,7 @@ contains daily activity records for 33 Bellabeat users over a period of approxim
   * **Inconsistency Check:** Identified and reviewed records with illogical values (e.g., negative steps, zero steps with highactive minutes) to understand data quality.
   * (Refer to the 'sql_scripts/' directory for detailed SQL queries used for cleaning)*
     
-  ##Analysis Highlights & Key Findings
+  ## Analysis Highlights & Key Findings
   * **Average Daily Steps:**
   Users averaged 6.51k per day, indicating a moderately active overall user base.
 
@@ -56,7 +56,12 @@ Activity levels are actively high on Saturday and with the lowest on Friday.
 30.56% of users were classified as highly active, 12.96% as moderately active, and 47.22% as sedentary based on WHO guidelines.
 
   ## Visualizations
+* **Static Visualizations:**
 * **Average Daily Steps:**
+![Image](https://github.com/user-attachments/assets/e6d59f0f-883c-4cf8-88fc-9c3229200ba6)
+This place card shows the average daily steps accumulated by users in a day.
+
+* **Distribution of Users by Activity Level:**
 
   
   
