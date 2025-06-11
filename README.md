@@ -71,6 +71,7 @@ This place card shows the average daily steps accumulated by users in a day.
 This pie chart shows distribution of users by activity level with different steps categories.
 
 For a veiw to my report it is available bellow:
+[Bellabeat_data_project_powerbi_visuals.pdf](https://github.com/user-attachments/files/20688566/Bellabeat_data_project_powerbi_visuals.pdf)
 
 ## Future Enhancements
 * Integrate other Bellabeat datasets such as 'sleepDay_merged.csv' and 'heartrate_seconds_merged.csv' for a more holistic veiw of user health.
