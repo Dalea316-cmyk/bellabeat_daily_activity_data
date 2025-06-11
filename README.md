@@ -79,6 +79,11 @@ For a veiw to my report it is available bellow:
 * **Bellabeat:** For providing the dataset.
 * **Google Data Analytics Professional Certificate:** For providing the case study and guiding principles.
 
+## Contact
+Feel free to reach out if you have any questions or feedback:
+**LinkedIn**: [https://www.linkedin.com/in/dalea-kumar-74679a369]
+**GitHub**: [https://github.com/Dalea316-cmyk]
+
 ## License
 This project is open-sourced under the [MIT License](https://opensource.org/license/MIT).
   
