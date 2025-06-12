@@ -1,5 +1,9 @@
+01_view_Bellabeat_daily_activity_data.sql
+
 SELECT* 
 FROM bellabeat_dataset_project.daily_activity_data;
+
+02_clean_Bellabeat_daily_activity_data.sql
 
 ALTER TABLE bellabeat_dataset_project.daily_activity_data
 ADD COLUMN activity_date_new DATE;
@@ -43,6 +47,8 @@ OR VeryActiveMinutes < 0 OR
 FairlyActiveMinutes < 0 OR
 LightlyActiveMinutes < 0 OR
 SedentaryMinutes < 0;
+
+04_analyze_Bellabeat_daily_activity_project.sql
 
 SELECT
 count(*) AS total_records,
