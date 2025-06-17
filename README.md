@@ -29,7 +29,7 @@ contains daily activity records for 33 Bellabeat users over a period of approxim
   ## Key Questions & Goals
   Tis analysis aimed to answer the following questions:
   1. What are the overall average daily activity metrics (steps,distance, calories, sedentary time) for the user's?
-  2. How do user avctivity levels vary by of the week?
+  2. How do user avctivity levels vary by day of the week?
   3. How are useers distributed across differt activity levels (e.g., highly active, moderately active, sedentary) based on their average daily steps?
   4. Is there a clear relationship between daily steps and calories burned?
   5. What are the characteristics of the most and least active users?
